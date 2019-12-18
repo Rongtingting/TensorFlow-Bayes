@@ -29,6 +29,8 @@ install it from PyPI:
 Also, you could add the newly created environment `TFProb` into `IPython kernel
 <https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments>`_.
 
+To activate the created environment, use ``conda activate TFProb``
+
 .. _conda: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
 

@@ -1,0 +1,2 @@
+from .binomial_regression import BinomRegression
+from .linear_regression import BayesianLinearRegression
