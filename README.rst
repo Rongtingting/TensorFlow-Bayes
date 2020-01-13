@@ -24,10 +24,18 @@ install it from PyPI:
 
 .. code-block:: bash
 
+   conda activate TFProb
    pip install tensorflow-probability==0.8.0
     
 Also, you could add the newly created environment `TFProb` into `IPython kernel
 <https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments>`_.
+(make sure you have `ipykernel`).
+
+.. code-block:: bash
+
+   conda activate TFProb
+   conda install ipykernel
+   python -m ipykernel install --user --name TFProb --display-name "TFProb"
 
 To activate the created environment, use ``conda activate TFProb``
 
