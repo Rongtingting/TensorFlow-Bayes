@@ -26,7 +26,13 @@ install it from PyPI:
 
    conda activate TFProb
    pip install tensorflow-probability==0.8.0
+
+**Update**: tensorflow-probability v0.8.0 is not available on conda
+.. code-block:: bash
+    conda install -c anaconda tensorflow-probability
     
+https://anaconda.org/anaconda/tensorflow-probability
+
 Also, you could add the newly created environment `TFProb` into `IPython kernel
 <https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments>`_.
 (make sure you have `ipykernel`).
